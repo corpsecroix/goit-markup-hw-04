@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-homework2-css-basics
+# goit-markup-hw-04
+decorative effects and elements
