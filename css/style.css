@@ -72,6 +72,7 @@ img {
 .section {
   padding: 120px 0;
 }
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -81,6 +82,12 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 .nav {
@@ -338,6 +345,14 @@ img {
   letter-spacing: 0.32px;
   max-width: 264px;
   margin-top: 18px;
+}
+
+.socmed-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--white);
 }
 
 /* PORTFOLIO */
