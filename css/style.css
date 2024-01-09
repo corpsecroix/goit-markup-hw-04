@@ -247,10 +247,6 @@ img {
   gap: 48px 24px;
 }
 
-/* .project-link {
-  width: calc((100% - 48px) / 3);
-} */
-
 .contact-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -306,7 +302,7 @@ img {
 .icon-container {
   display: flex;
   justify-content: center;
-  padding: 24px 100px;
+  padding: 24px 0;
   border-radius: 4px;
   background-color: var(--cloud);
   /* margin-bottom: 8px; */
@@ -486,6 +482,17 @@ img {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean);
+}
+
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.project-link {
+  display: block;
 }
 
 .container-project {
